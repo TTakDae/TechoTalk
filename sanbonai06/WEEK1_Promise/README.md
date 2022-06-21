@@ -88,7 +88,9 @@ promise.then(onFullfilled, onRejected);
 
 
 
-### 비동기 처리 여러 개를 병렬로 실행하기
+### 3. 비동기 처리 여러 개를 병렬로 실행하기
+
+-----
 
 #### Promise.all
 
