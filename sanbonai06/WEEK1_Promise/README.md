@@ -117,6 +117,7 @@ const [totalCount, ticketList] = await Promise.all([
   * 배열 내부의 모든 객체들이 reslove 함수를 호출 하면 .then 메서드를 실행 (response라는 배열을 인수로 받음)
   * 배열 내부의 객체 중 한개라도 reject 함수를 호출 하면 가장 먼저 호출된 reject 함수의 인수를 통해 .catch 메서드를 실행
 
+
 #### Promise.race
 
 * Promise.race는 배열 내부에 있는 promise 객체들 중 가장 일찍 종료한 작업의 결과를 바탕으로 .then/.catch를 호출한다. (나머지 객체들도 실행 되기는 함)
