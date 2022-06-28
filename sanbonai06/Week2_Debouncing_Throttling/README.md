@@ -13,12 +13,14 @@
   * Ex. 안녕 => *ㅇ 아 안 안ㄴ 안녀 안녕* 처럼 모두 이벤트가 실행
 
   * 위의 문제점을 해결하기 위한 디바운싱 코드
+  
+<img width="769" alt="스크린샷 2022-06-28 오후 4 09 01" src="https://user-images.githubusercontent.com/59060780/176115935-0eb4fddf-c052-4963-8e53-e96fdae10fa6.png">
 
-    ![스크린샷 2022-06-28 오후 3.22.41](/Users/sanbonai06/Library/Application Support/typora-user-images/스크린샷 2022-06-28 오후 3.22.41.png)
 
-    * 매커니즘은 input이벤트가 발생할 때마다 현재 실행되고 있는 타이머를 취소 => 다시 설정해놓은 시간만큼의 타이머를 실행시킴
+   * 매커니즘은 input이벤트가 발생할 때마다 현재 실행되고 있는 타이머를 취소 => 다시 설정해놓은 시간만큼의 타이머를 실행시킴
 
       => 만약 타이머가 종료될 시에는 입력이 끝난 것으로 간주하고 걸어놓은 함수 실 (요청 전송)
+
 
       
 
@@ -35,7 +37,8 @@
 * Leading edge: 처음 실행한 함수만 실행 후 뒤의 실행되는 이벤트들은 무시한다.
 * Trailing edge: 마지막 실행한 함수만 실행하고 그 전에 실행되는 이벤트들은 무시한다.
 * 밑의 코드는 함수의 인수로 leading 의 여부를 boolean 값으로 넘겨 디바운싱을 두 방식으로 실행하는 코드이다.
-  * ![스크린샷 2022-06-28 오후 3.45.58](/Users/sanbonai06/Library/Application Support/typora-user-images/스크린샷 2022-06-28 오후 3.45.58.png)
+  * <img width="519" alt="스크린샷 2022-06-28 오후 4 10 42" src="https://user-images.githubusercontent.com/59060780/176116237-97d044d0-aa96-4f96-8516-a43a4a10f844.png">
+
 
 
 
@@ -58,7 +61,8 @@
 * 웹사이트 구축 시 스크롤을 내릴 때 scroll 이벤트는 반복적으로 발생
   * Ex. 무한 스크롤 방식처럼 스크롤을 내릴 때마다 DB에 요청을 보내는 방식이라면 요청이 어마무시하게 전송 될 것임.
   * 위의 문제점을 해결하기 위해 사용하는 기법인 쓰로틀링 예시 코드
-  * ![스크린샷 2022-06-28 오후 3.34.59](/Users/sanbonai06/Library/Application Support/typora-user-images/스크린샷 2022-06-28 오후 3.34.59.png)
+  * <img width="605" alt="스크린샷 2022-06-28 오후 4 11 15" src="https://user-images.githubusercontent.com/59060780/176116331-b39f58f0-8dc9-47ab-a7bf-62aa67398deb.png">
+
 
 
 
