@@ -66,7 +66,7 @@
 - 클라이언트 입장에서 필요한 기능 중심으로 인터페이스를 분리한다.
 - 클라이언트가 자신과 관련이 없는 인터페이스는 구현하지 않아야 한다.
 
-![isp](/Users/hangyujin/Documents/typora/TTakDae/week1_OOP_FP/isp.png)
+![isp](/Users/hangyujin/Documents/typora/TTakDae/9yujin/week1_OOP_FP/isp.png)
 
 ### e. Dependency Inversion Principle (의존성 역전 법칙)
 
@@ -75,7 +75,7 @@
 - 클라이언트 입장에서 필요한 인터페이스를 추출한다.
 - 독립배포가 가능해진 다는 장점
 
-![dip](/Users/hangyujin/Documents/typora/TTakDae/week1_OOP_FP/dip.png)
+![dip](/Users/hangyujin/Documents/typora/TTakDae/9yujin/week1_OOP_FP/dip.png)
 
 
 
