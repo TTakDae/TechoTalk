@@ -31,7 +31,7 @@ console.log(a);
 // ------------------- (6)
 ```
 
-![다운로드](/Users/hangyujin/Desktop/JBBP/TTakDae/9yujin/week2_클로저/다운로드.png)
+![다운로드](https://github.com/TTakDae/TechoTalk/blob/9yujin/9yujin/week2_%ED%81%B4%EB%A1%9C%EC%A0%80/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C.png?raw=true)
 
 콜 스택의 형태이다. 함수가 호출되면 자바스크립트 엔진은 해당 함수에 대한 환경 정보를 수집해서 실행 컨텍스트를 생성한 후 콜 스택에 담는다. 처음 자바스크립트 코드가 실행되는 순간에는 전역 컨텍스트가 콜 스텍에 담긴다.
 
