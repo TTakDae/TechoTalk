@@ -1,6 +1,6 @@
 # 🐈‍⬛ Merge, Rebase, Cherry-pick
 
-## Merge란?
+## 1️⃣ Merge란?
 * git은 서로 다른 작업을 하기 위한 별도의 공간을 생성할 때 브랜치를 생성할 수 있다.
 * 기능 구현을 위해서 해당하는 기능을 구현하기 위한 브랜치를 생성한다.
 * 기능 구현이 되는 경우 해당 기능을 main 브랜치에 merge한다.
@@ -84,7 +84,7 @@ feature에서 작업했던 모든 commit들을 하나의 commit으로 통합해�
 
 ---
 
-## Rebase란?
+## 2️⃣ Rebase란?
 
 * Merge와의 공통점? -> 브랜치를 합친다!
 * Merge와의 차이점? -> Merge보다 깨끗한 commit history를 만든다!
@@ -112,7 +112,7 @@ feature에서 작업했던 모든 commit들을 하나의 commit으로 통합해�
 ---
 
 
-## Cherry-pick란?
+## 3️⃣ Cherry-pick란?
 
 > ### "다른 브랜치에 있는 커밋을 **선택적**으로 내 브랜치에 적용시키는 것"
 
