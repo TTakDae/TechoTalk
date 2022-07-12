@@ -63,11 +63,11 @@ printThis();
   브라우저의 전역객체 : window
   node의 전역객체 : global
 
-다만 원격모드에서는 undefined가 바인딩된다. `'use strict';` 
+다만 엄격모드에서는 undefined가 바인딩된다. `'use strict';` 
 
 
 
-```
+```javascript
 const obj = {
 	foo() {
 		function boo() {
@@ -118,7 +118,7 @@ self라는 이름으로 변수를 만들어서 사용했다. self에는 me가 �
 
 #### 암시적 바인딩
 
-```
+```javascript
 const outer = {
 	inner: {
 		printThis() {
